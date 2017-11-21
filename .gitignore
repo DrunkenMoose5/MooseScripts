@@ -1,33 +1,40 @@
-# http://www.gnu.org/software/automake
 
-Makefile.in
-/ar-lib
-/mdate-sh
-/py-compile
-/test-driver
-/ylwrap
+# Created by https://www.gitignore.io/api/linux,windows
 
-# http://www.gnu.org/software/autoconf
+### Linux ###
+*~
 
-/autom4te.cache
-/autoscan.log
-/autoscan-*.log
-/aclocal.m4
-/compile
-/config.guess
-/config.h.in
-/config.sub
-/configure
-/configure.scan
-/depcomp
-/install-sh
-/missing
-/stamp-h1
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
 
-# https://www.gnu.org/software/libtool/
+# KDE directory preferences
+.directory
 
-/ltmain.sh
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
 
-# http://www.gnu.org/software/texinfo
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
 
-/texinfo.tex
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# End of https://www.gitignore.io/api/linux,windows
